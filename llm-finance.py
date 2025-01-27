@@ -52,10 +52,11 @@ def llm_categorisation(df):
     - Phone
     - Rent
     - Shopping
+    - Charity
 
     Pick a category for this item: {text}
 
-    Reply only with one category.
+    Reply only with one category, don't use any special characters, only the category as a response
     """
 
     prompt = PromptTemplate.from_template(template=template)
