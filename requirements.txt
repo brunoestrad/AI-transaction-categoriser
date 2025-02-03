@@ -1,0 +1,9 @@
+pandas
+numpy
+openai
+langchain
+langchain-openai
+langchain-groq
+python-dotenv
+streamlit
+plotly
