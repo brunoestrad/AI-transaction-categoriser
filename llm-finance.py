@@ -50,7 +50,6 @@ def llm_categorisation(df):
     - Transport
     - Investment
     - Phone
-    - Rent
     - Shopping
     - Charity
 
