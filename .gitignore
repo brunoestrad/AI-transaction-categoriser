@@ -1,6 +1,6 @@
 .env
 
 statements/*
-!.gitignore
+!statements/example.csv
 
 finances.csv
