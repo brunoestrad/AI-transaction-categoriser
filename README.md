@@ -6,8 +6,9 @@ This script processes bank statements and categorises transactions using an **LL
 - Loads bank statements from CSV files.
 - Uses **LLM (Llama 3.1-8B)** to categorise transactions.
 - Saves the categorised transactions into a new CSV file (`finances.csv`).
+- Displays dashboard with filtering capabilities for better visualisation.
 - Supports multiple categories:  
-  - Dining Out, Payment Received, Health, Groceries, Education, Transport, Investing, etc.
+  - Dining out, Income, Health, Groceries, Education, Transport, Investment, Phone, Shopping and Charity.
 
 ## 🛠 Installation
 
@@ -20,7 +21,7 @@ cd AI-transaction-categoriser
 ```sh
 pip install -r requirements.txt
 ```
-### 3️⃣ Set Up API kEY
+### 3️⃣ Set Up API KEY
 ```sh
 Create a .env file in the project root and add:
 
